@@ -1,9 +1,5 @@
-var tab = ["control", "alt", "nie wiem co jeszcze"]
-var car = ["bmw", "tesla", "bentley"]
+var tab = [2, 9, 41]
 
-tab[1]=3;
-car[0]= "lambo";
-
-
-document.write(tab)
-document.write(car)
+for (i = 0; i<3 ; i++) {
+	document.write(tab[i], ",")
+}
