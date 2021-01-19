@@ -1,5 +1,17 @@
-#js{
-	text-align: center;
-	font-size: 35px;
+body{
+	background-color: #5ac8fa;
 	font-family: 'Courier New', monospace;
+}
+
+#ja{
+    text-align: center;
+}
+
+#js{
+	padding: 70px 0;
+    border: 3px solid black;
+	background-color: whitesmoke;
+	border-radius: 55px;
+    text-align: center;
+	font-size: 35px;
 }
