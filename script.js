@@ -1,52 +1,19 @@
-var lp = 1;
+document.write('<ul>')
 
-while (lp < 11) {
-	document.write('<tr> <td>' + lp + '</td> <td>')
-	if (lp % 2 == 0) {
-		document.write('parzysta')
-	} else {
-		document.write('nieparzysta')
-	}
-	document.write('</td> </tr>')
-	lp++
-}
+// for (var i = 0; i < 5; i++){
+// 	document.write('<li>',i+1,'</li>')
+// }
 
-document.write('<tr> <td> PETLA FOR</td> <tr>')
+// var i = 0;
+// while (i < 5){
+// 	document.write('<li>',i+1,'</li>')
+// 	i++;
+// }
 
-for (lp = 1; lp < 11; lp++) {
- 	document.write('<tr> <td>' + lp + '</td> <td>')
-	if (lp % 2 == 0) {
-		document.write('parzysta')
-	} else {
-		document.write('nieparzysta')
-	}
-	document.write('</td> </tr>')
-}
+var i = 0;
+do{
+	document.write('<li>',i+1,'</li>')
+	i++;
+}while (i < 5)
 
-document.write('<tr> <td> PETLA DO</td> <tr>')
-
-var lp = 1;
-
-do {
-	document.write('<tr> <td>' + lp + '</td> <td>')
-	if (lp % 2 == 0) {
-		document.write('parzysta')
-	} else {
-		document.write('nieparzysta')
-	}
-	document.write('</td> </tr>')
-	lp++
-} while (lp < 11) 
-
-document.write('<br>');
-
-var wektor = [];
- var i;
- for (i = 0; i < 10; i++) {
- 	wektor[i] = Math.floor(Math.random() * 11);
- }
- document.write(wektor)
-
-for (i=0; i<10; i++){
-	document.write('<tr> <td>'+i+'</td><td>'+wektor[i]+'</td></tr>')
-}
+document.write('</ul>')
