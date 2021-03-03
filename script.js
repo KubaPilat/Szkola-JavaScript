@@ -1,15 +1,20 @@
-var lp = 1;
+var wektori = [];
+var wektorj = [];
+var wektork = [];
 
-// while (lp < 11) {
-// 	document.write('<tr> <td>' + lp + '</td> <td>while</td> </tr>')
-// 	lp++
-// }
+for (let i=0; i < 3; i++ ) {
+    wektori[i] = i % 2
+}
 
-// for (lp = 1; lp < 11; lp++) {
-// 	document.write('<tr> <td>' + lp + '</td> <td>for</td> </tr>')
-// }
+for (let j=0; j < 3; j++ ) {
+    wektorj[j] = j % 2
+}
 
-do {
-	document.write('<tr> <td>' + lp + '</td> <td>do while</td> </tr>')
-	lp++
-} while (lp < 11)
+for (let k=0; k < 3; k++ ) {
+    wektork[k] = k % 2
+}
+
+
+document.write(wektori,'<br>')
+document.write(wektorj,'<br>')
+document.write(wektork,'<br>')
