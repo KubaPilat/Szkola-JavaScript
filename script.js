@@ -1,31 +1,53 @@
-function dodawanie(a,b){
-	document.write(a+b);
-}
+// ------------dodawanie------------
 
-dodawanie(1,2);
+// function dodawanie(a,b){
+// 	document.write(a+b);
+// }
 
-document.write('<br>');
+const dodawanie = (a,b) => a+b;
 
-function odejmowanie(a,b){
-	document.write(a-b);
-}
+document.write(dodawanie(1,2));
 
-odejmowanie(1,2);
+// ----------------------------------
 
 document.write('<br>');
 
-function mnozenie(a,b){
-	document.write(a*b);
-}
+// ------------odejmowanie------------
 
-mnozenie(1,2);
+// function odejmowanie(a,b){
+// 	document.write(a-b);
+// }
+
+const odejmowanie = (a,b) => a-b;
+
+document.write(odejmowanie(1,2));
+
+// ----------------------------------
+
+document.write('<br>');
+
+// ------------mnozenie------------
+
+// function mnozenie(a,b){
+// 	document.write(a*b);
+// }
+
+const mnozenie = (a,b) => a*b;
+
+document.write(mnozenie(1,2));
+
+// ----------------------------------
 
 document.write('<br>');
 
-function dzielenie(a,b){
-	document.write(a/b);
-}
+// ------------dzielenie------------
 
-dzielenie(1,2);
+// function dzielenie(a,b){
+// 	document.write(a/b);
+// }
 
-document.write('<br>');
+const dzielenie = (a,b) => a/b;
+
+document.write(dzielenie(1,2));
+
+// ----------------------------------
