@@ -1,19 +1,31 @@
-document.write('<ul>')
+function wyswietlanie(){
+	document.write("Hello World");
+}
 
-// for (var i = 0; i < 5; i++){
-// 	document.write('<li>',i+1,'</li>')
-// }
+wyswietlanie();
 
-// var i = 0;
-// while (i < 5){
-// 	document.write('<li>',i+1,'</li>')
-// 	i++;
-// }
+document.write('<br>');
 
-var i = 0;
-do{
-	document.write('<li>',i+1,'</li>')
-	i++;
-}while (i < 5)
+function wyswietlanie1(imie){
+	document.write("Witaj ",imie);
+}
 
-document.write('</ul>')
+wyswietlanie1("Kuba");
+
+document.write('<br>');
+
+function wyswietlanie2(){
+	document.write("Hello World z data ");
+	return new Date();
+}
+var pokaz = wyswietlanie2();
+document.write(pokaz);
+
+document.write('<br>');
+
+function wyswietlanie2(imie){
+	document.write("hej ", imie, " ");
+	return new Date();
+}
+var pokaz = wyswietlanie2("Kuba");
+document.write(pokaz);
