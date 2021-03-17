@@ -1,31 +1,31 @@
-function wyswietlanie(){
-	document.write("Hello World");
+function dodawanie(a,b){
+	document.write(a+b);
 }
 
-wyswietlanie();
+dodawanie(1,2);
 
 document.write('<br>');
 
-function wyswietlanie1(imie){
-	document.write("Witaj ",imie);
+function odejmowanie(a,b){
+	document.write(a-b);
 }
 
-wyswietlanie1("Kuba");
+odejmowanie(1,2);
 
 document.write('<br>');
 
-function wyswietlanie2(){
-	document.write("Hello World z data ");
-	return new Date();
+function mnozenie(a,b){
+	document.write(a*b);
 }
-var pokaz = wyswietlanie2();
-document.write(pokaz);
+
+mnozenie(1,2);
 
 document.write('<br>');
 
-function wyswietlanie2(imie){
-	document.write("hej ", imie, " ");
-	return new Date();
+function dzielenie(a,b){
+	document.write(a/b);
 }
-var pokaz = wyswietlanie2("Kuba");
-document.write(pokaz);
+
+dzielenie(1,2);
+
+document.write('<br>');
