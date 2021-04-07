@@ -4,11 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
   </head>
   <body>
 
 	  <p id="demo"></p>
+
+	  <button onclick="document.getElementById('demo').innerHTML = 'kliknieto'">przycisk</button>
+
+	<p id="demoZFu"></p>
+
+	</br>
+
+	<button onclick="klick()">przycisk z function</button>
+
+
+	<p id="demoZData"></p>
+	</br>
+
+	<button onclick="klickzData()">przycisk z Data</button>
+
+	</br>
+	</br>
+	</br>
+
+	<button onclick="this.innerHTML = 'kliknieto'">przycisk zmiana bez</button>
+
+	</br>
+	</br>
+	</br>
+
+	<button id='przycisk' onclick="zmiana()">przycisk zmiana z </button>
+
 
 	<div id="js">
   <script src="script.js"></script>
