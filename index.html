@@ -6,40 +6,20 @@
     <title>repl.it</title>
     <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
   </head>
-  <body>
+  <body onload="spr()">
+
+	  <form>
+		  <input type="text" id="pText"> <br>
+		  <input type="number" id="pNum"> <br>
+		  <input type="checkbox" id="pCheck"> <br>
+		  <input type="submit" id="pSub"> <br>
+	  </form>
 
 	  <p id="demo"></p>
 
-	  <button onclick="document.getElementById('demo').innerHTML = 'kliknieto'">przycisk</button>
-
-	<p id="demoZFu"></p>
-
-	</br>
-
-	<button onclick="klick()">przycisk z function</button>
-
-
-	<p id="demoZData"></p>
-	</br>
-
-	<button onclick="klickzData()">przycisk z Data</button>
-
-	</br>
-	</br>
-	</br>
-
-	<button onclick="this.innerHTML = 'kliknieto'">przycisk zmiana bez</button>
-
-	</br>
-	</br>
-	</br>
-
-	<button id='przycisk' onclick="zmiana()">przycisk zmiana z </button>
-
-
-	<div id="js">
+	<!-- <div id="js"> -->
   <script src="script.js"></script>
-	</div>
+	<!-- </div> -->
 
   </body>
 </html>

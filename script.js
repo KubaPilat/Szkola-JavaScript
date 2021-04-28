@@ -1,11 +1,8 @@
-function klick(){
-    document.getElementById('demoZFu').innerHTML = 'klick z function';
+function spr() {
+	if(navigator.cookieEnabled == true){
+		document.getElementById("demo").innerHTML = "Ciasteczka są"
+	} else {
+		document.getElementById("demo").innerHTML = "Ciasteczek ni ma"
+	}
 }
 
-function klickzData(){
-    document.getElementById('demoZData').innerHTML = Date();
-}
-
-function zmiana(){
-    document.getElementById('przycisk').innerHTML = 'function';
-}
