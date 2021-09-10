@@ -1,15 +1,19 @@
-var lp = 1;
+document.write('<ul>')
 
-// while (lp < 11) {
-// 	document.write('<tr> <td>' + lp + '</td> <td>while</td> </tr>')
-// 	lp++
+// for (var i = 0; i < 5; i++){
+// 	document.write('<li>',i+1,'</li>')
 // }
 
-// for (lp = 1; lp < 11; lp++) {
-// 	document.write('<tr> <td>' + lp + '</td> <td>for</td> </tr>')
+// var i = 0;
+// while (i < 5){
+// 	document.write('<li>',i+1,'</li>')
+// 	i++;
 // }
 
-do {
-	document.write('<tr> <td>' + lp + '</td> <td>do while</td> </tr>')
-	lp++
-} while (lp < 11)
+var i = 0;
+do{
+	document.write('<li>',i+1,'</li>')
+	i++;
+}while (i < 5)
+
+document.write('</ul>')
