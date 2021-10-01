@@ -1,15 +1,29 @@
-var lp = 1;
+function obliczanie() {
+    let a = prompt("Wpisz liczbę: ");
+    a = parseInt(a);
 
-// while (lp < 11) {
-// 	document.write('<tr> <td>' + lp + '</td> <td>while</td> </tr>')
-// 	lp++
-// }
+    if (a > 0) {
+        let wynik = Math.sqrt(a);
+        alert("Pierwiastek wynosi: " + wynik)
+    } else if (a < 0) {
+        alert("Podaj liczbę większa niz 0")
+    } else {
+        alert("Odśwież i podaj liczbę")
+    }
+}
 
-// for (lp = 1; lp < 11; lp++) {
-// 	document.write('<tr> <td>' + lp + '</td> <td>for</td> </tr>')
-// }
+obliczanie()
 
-do {
-	document.write('<tr> <td>' + lp + '</td> <td>do while</td> </tr>')
-	lp++
-} while (lp < 11)
+var i =0
+
+while (i<10) {
+    var reload = confirm("Jeszcze raz?")
+
+    if (reload === true) {
+        obliczanie()
+    } else if (reload == false) {
+        alert("Koniec")
+        break;
+    }
+    i++
+}
